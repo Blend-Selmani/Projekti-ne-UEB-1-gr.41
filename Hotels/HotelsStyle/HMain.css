@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color:rgb(241,245,248);
+}
+
+header{
+    position: relative !important;
+    background-color: rgb(4,22,37);
+}
+
+.search-bar{
+    width: 100%;
+    background-color:rgb(205,44,34) ;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar .search-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 15px;
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+}
+.search-input .same{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.search-input button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 21.5px;
+    cursor: pointer;
+}
+.search-input fieldset{
+    border: none;
+    color:rgb(240,240,240) ;
+    font-size: 14px;
+    font-weight: 500;
+    padding:5px;
+}
+fieldset input{
+    color: #05264e;
+    font-weight: 500 !important;
+}
+
+.search-input button:hover{
+    background-color: rgb(14,30,43);
+    color: white;
+    transition: 1s ease;
+}
+
+/* Hotel Page Body*/
+
+.hotel-body{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.section1{
+    background-color: white;
+    width: 20%;
+    box-shadow: 0px 2px 4px rgba(0, 0,0,0.3);
+    border-radius: 10px;
+    position: relative;
+    height: 70%;
+    left: 6.5%;
+}
