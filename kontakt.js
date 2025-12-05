@@ -4,3 +4,7 @@ const sidebar = document.querySelector(".sidebar");
 list.addEventListener('click', function(){
     sidebar.classList.toggle("sidebar-special");
     });
+
+    const contactBtn = document.querySelector('.button-show');
+    const show_hide = dovument.qyerySelector('.show-hide');
+    const closeContactForm = document.querySelector('.close-form');
