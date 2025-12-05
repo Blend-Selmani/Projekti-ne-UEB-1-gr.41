@@ -13,3 +13,7 @@ contactBtn.addEventListener('click',function(){
     show_hide.classList.add('show-hide-special');
     show_hide.scrollIntoView({ behavior: 'smooth', block: 'start' });
  });
+
+ closeContactForm.addEventListener('click', function(){
+    show_hide.classList.remove('show-hide-special');
+ })
