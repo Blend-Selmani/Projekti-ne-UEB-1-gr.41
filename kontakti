@@ -18,3 +18,17 @@ header {
     width: 100%;
     text-align:center;
 }
+
+.about-us {
+    text-align: center;
+}
+.about-us-body {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding:top: 50px;
+}
+ .about-us h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+ }
