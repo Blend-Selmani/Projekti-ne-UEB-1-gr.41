@@ -8,3 +8,8 @@ list.addEventListener('click', function(){
     const contactBtn = document.querySelector('.button-show');
     const show_hide = dovument.qyerySelector('.show-hide');
     const closeContactForm = document.querySelector('.close-form');
+
+contactBtn.addEventListener('click',function(){
+    show_hide.classList.add('show-hide-special');
+    show_hide.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ });
