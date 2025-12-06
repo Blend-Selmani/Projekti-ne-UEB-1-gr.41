@@ -17,3 +17,6 @@ contactBtn.addEventListener('click',function(){
  closeContactForm.addEventListener('click', function(){
     show_hide.classList.remove('show-hide-special');
  })
+
+ $(document).ready(function () {
+   const $goTopBtn = $('.gotopbtn');
